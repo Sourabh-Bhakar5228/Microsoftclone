@@ -1,0 +1,19 @@
+ye sab tailwind css ko setup karne ke use hoga
+npm init
+npm init -y
+ npm install -D tailwindcss postcss autoprefixer
+ npx tailwindcss init
+ npx tailwindcss init -p
+ npm install vite
+ npm run start
+
+  "scripts": {
+    "start": "vite"
+  }, 
+
+   content: ["*"],
+
+in style sheet
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
